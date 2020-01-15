@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+	font-size: 14px;
+	color: #313131;
+	line-height: 150%;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+img{
+	vertical-align: bottom;
+	border: none;
+}
+
+a:hover{
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+/*よく使うクラス*/
+.clear{
+	clear: both;
+	border: 2px solid black;
+}
+.red{
+	color: red;
+}
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+		
+}
+.mawarikomi-r{
+	float: right;
+	margin: 0 0 1em 1em;
+}
+.mawarikomi-l{
+	float: left;
+	margin: 0 1em 1em 0;
+}
+.img-responsive{
+	width: 100%;
+	height: auto;
+}
+/*以下、ページごとに指定*/
+main{
+	margin: 0 auto;
+}
+.padding{
+	padding: 0 1em;
+}
+header{
+	background-color: #4C84AF;
+	padding: 1em;
+}
+header h1{
+	margin: 0;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+nav h2 a{
+	background-image: url("../img/navicon@2x.png");
+	background-repeat: no-repeat;
+	background-position : right 1.5em bottom 20px;
+}
+nav h3 a{
+	background-image: url("../img/navicon_wt@2x.png");
+	background-repeat: no-repeat;
+	background-position : right 1.5em bottom 20px;
+}
+nav h2 a,h3 a{
+	font-size: 19px;
+	padding: 25px;
+	border-radius: 3px;
+}
+/*両はしに置きたい。文字の垂直ぞろえ*/
+nav h2 a{
+	display: block;
+	border: 2px solid #4C84AF;
+	background-color: white;
+	color: #4C84AF;
+	text-decoration:none;
+
+}
+nav h3 a{
+	display: block;
+	background-color: #4C84AF;
+	color: white;
+	text-decoration:none;
+}
+.news{
+	background-color: white;
+	border: 1px solid #707070;
+	margin: 3em 0;
+}
+.news h2{
+	padding: 1em;
+	background-color: #E6E6E6;
+	margin: 0;
+}
+.news p{
+	padding: 1em;
+	margin: 1em;
+	border-bottom:1px dashed #707070;
+}
+.pagetop{
+	text-align: center;
+	padding-bottom: 1.25em;
+}
+footer{
+	background-color: #4C84AF;
+	padding: 1.5em;
+	color: white;
+}
+footer h4{
+	margin-top:2em;
+	margin-bottom:0.25em;
+}
+footer p{
+	margin: 0;
+}
+small{
+	padding: 3em 0;
+	color: #E2E2E2;
+	text-align: center;
+}
+/*Copyright中央ぞろえ*/
